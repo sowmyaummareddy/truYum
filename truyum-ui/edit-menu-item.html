@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit-Menu-Item</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+     <header class="head">
+       <div style="font-size: 40px; color: white;">
+           TruYum
+           <img class="logo" src="logo.png" alt="truYum-img">
+        <a  href="menu-item-list-admin.html" id="menu">Menu</a></div>
+        
+    </header>
+    <section  >
+            <h2>Edit Menu Item</h2>
+
+        <form name="edit-menu">
+                <label for="item-name"><b>Name</label><br>
+                <input type="text" id="item-name" name="item-name" placeholder="enter item name" required>
+                <br>
+
+            <table class="center">
+                <tr>
+                <th><label for="rs">Price (Rs.)</label></th>
+                <th><label>Active</label></th>
+                <th><label for="launch-date">Date of Launch</label></th>
+                <th><label for="category">Category</label></th>
+                </tr>
+                <br>
+                <tr>
+                    <td><input type="text" id="rs" name="rs" placeholder="Enter Price in Rs." required></td>
+                    <td>
+                        <input type="radio" id="active-yes" value="yes" name="active">
+                        <label for="active-yes">Yes</label>
+                        <input type="radio" id="active-no" value="no" name="active">
+                        <label for="active-no">No</label>
+                    </td>
+                    <td><input type="date" id="launch-date" name="launch-date" required></td>    
+                    <td>
+                        <select name="category" id="category">
+                            <option value="Starters">Starters</option>
+                            <option value="Main Course">Main Course</option>
+                            <option value="Dessert">Dessert</option>
+                            <option value="Drinks">Drinks</option>
+                        </select>
+                    </td>
+                </tr>
+            </table><br>         
+                <input type="checkbox" id="free-delivery" name="free-delivery" value="free-delivery">
+                <label for="free-delivery">Free Delivery</label>
+            <br><br>
+            <button type="submit" id="save" name="save" formaction="edit-menu-item-status.html"> Save </button>
+        </form>
+    </section>
+    <footer>
+        <p class="copyright">Copyright &copy; 2019</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+.logo {
+    height: 60px;
+    width: 60px;
+    padding: 3px;
+    margin-left: 25px;}
+.head {
+    padding: 10px;
+    margin-top: -20px;
+    background-color: #03254c;
+    width: auto;
+    height: 60px;
+}
+#menu, #cart{
+   	float:right;
+	margin-right:15px;
+	margin-top:20px;
+	color: white;}
+.center {
+  margin-left: auto; 
+  margin-right: auto;}
+footer{
+    background-color: #BFBFBF;
+    width: auto;
+    height: 60px;
+    margin-bottom: 0px;}
+section{
+    margin-top: 7em;
+    height: 30em;
+    width: auto;}
+table, td, th{
+    text-align: center;
+    border-collapse: separate;
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+}
+body{
+    margin-top: 0px;
+    margin: 0px;}
+.green{
+	text-align: center;
+	color: green;
+	font-weight: bold;}
+form,h2{
+	text-align: center;}
+*{
+	font-family: times new roman;
+}
+#save{
+	padding: 15px 30px;
+  text-align: center;
+  font-size: 16px;
+  background-color: #d0efff;
+}
